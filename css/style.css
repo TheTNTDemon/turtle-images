@@ -16,9 +16,9 @@ html, body {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 800px;
-    max-height: 750px;
-    padding: 2rem;
+    width:  min(90vw, 800px);
+    max-height: min(90vh, 750px);
+    padding: 1rem;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 9px );
@@ -38,8 +38,8 @@ html, body {
 }
 
 figure {
-    width: 800px;
-    height: 750px;
+    width: min(80vw, 800px);
+    height: min(90vh, 750px);
     scroll-snap-align: center;
     scroll-snap-stop: always;
     display: flex;
@@ -49,6 +49,7 @@ figure {
 }
 
 figure img {
+    width: min(80vw, 800px);
     border-radius: 1rem;
 }
 
