@@ -54,6 +54,7 @@ figure img {
 }
 
 figure figcaption {
+    text-align: center;
     color: white;
     font-size: 1.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -74,6 +75,9 @@ figure figcaption {
     .image-gallery {
         gap: 30rem;
     }
+    figure figcaption {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -83,5 +87,8 @@ figure figcaption {
     figure {
         width: 100vw;
         height: 50svh;
+    }
+    figure figcaption {
+        font-size: 1.2rem;
     }
 }
