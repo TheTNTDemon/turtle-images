@@ -62,3 +62,23 @@ figure figcaption {
 .spacer {
     width: 2rem;
 }
+
+@media (max-width: 768px) {
+    figure img {
+        width: 70vw;
+    }
+    figure {
+        width: 100vw;
+        height: 80svh;
+    }
+}
+
+@media (max-width: 576px) {
+    figure img {
+        width: 90vw;
+    }
+    figure {
+        width: 100vw;
+        height: 50svh;
+    }
+}
