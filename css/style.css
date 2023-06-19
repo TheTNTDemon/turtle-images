@@ -65,11 +65,14 @@ figure figcaption {
 
 @media (max-width: 768px) {
     figure img {
-        width: 70vw;
+        width: 30vw;
     }
     figure {
         width: 100vw;
         height: 80svh;
+    }
+    .image-gallery {
+        gap: 30rem;
     }
 }
 
